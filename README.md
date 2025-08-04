@@ -1,90 +1,49 @@
-# 🧠 Computer Vision Projects Repository
+# 🧠 Computer Vision Project Hub
 
-Welcome to my Computer Vision repository! This repository contains a variety of projects that showcase core techniques in image processing, deep learning with CNNs, and classification tasks using PyTorch.
-
-## 📁 Structure
-
+Welcome! This repository is a collection of projects across **core Computer Vision tasks**, implemented with PyTorch and other open-source libraries. It includes beginner-friendly projects (like CNN from scratch) and extends to advanced topics such as segmentation, image captioning, VQA, and 3D vision.
 
 ---
 
-## 🔧 Core Implementations
+## 🗂️ Project Categories
 
-### 1. 🏗️ CNN from Scratch
-- Implemented a convolutional neural network using PyTorch without using any high-level APIs.
-- Components include: convolutional layers, ReLU, pooling, flattening, fully connected layers.
-- Focused on understanding the flow of data in CNNs and their forward/backward passes.
+| Task | Description | Status |
+|------|-------------|--------|
+| [CNN From Scratch](./cnn-from-scratch/) | Build a convolutional neural network manually with PyTorch | ✅ |
+| [Image Classification](./classification/) | Binary, Multiclass, and Multilabel classification tasks | ✅ |
+| [Object Detection](./object-detection/) | YOLO, SSD, Faster R-CNN based models | 🛠️ |
+| [Image Segmentation](./segmentation/) | Semantic, instance, panoptic segmentation | 🛠️ |
+| [Pose Estimation](./pose-estimation/) | Detect keypoints of humans (2D/3D) | ⏳ |
+| [Depth Estimation](./depth-estimation/) | Monocular and stereo image depth prediction | ⏳ |
+| [Image Captioning](./captioning/) | Generate image descriptions using RNNs/Transformers | ⏳ |
+| [VQA](./vqa/) | Visual Question Answering combining NLP + CV | ⏳ |
+| [Image Translation](./image-to-image/) | Style transfer, colorization, inpainting | ⏳ |
+| [Anomaly Detection](./anomaly-detection/) | Defect detection using unsupervised/autoencoders | ⏳ |
+| [Image Retrieval](./image-retrieval/) | Find similar images using embeddings | ⏳ |
+| [OCR](./ocr/) | Detect & recognize printed/handwritten text | ⏳ |
+| [3D Vision](./3d-vision/) | 3D reconstruction, point clouds | ⏳ |
+| [Video Analysis](./video-analysis/) | Tracking, action recognition, temporal detection | ⏳ |
+| [Face Analysis](./face-analysis/) | Detection, recognition, landmarks, deepfake | ⏳ |
 
-➡️ **[View Code](./cnn-from-scratch/)**
-
----
-
-### 2. ✅ Binary Classification (e.g., Cat vs Dog)
-- Dataset: [Mention dataset e.g., Kaggle Dogs vs Cats]
-- Framework: PyTorch
-- Techniques:
-  - Image preprocessing and data augmentation
-  - Model training with evaluation metrics (accuracy, confusion matrix)
-
-➡️ **[View Project](./binary-classification/)**
-
----
-
-### 3. 🎯 Multiclass Classification (e.g., CIFAR-10, Fashion-MNIST)
-- Dataset: [Mention dataset name]
-- Implemented deep learning models for classifying multiple classes.
-- Applied data loaders, loss functions, optimizers, and trained using GPU.
-
-➡️ **[View Project](./multiclass-classification/)**
+> 🔄 Projects will be updated progressively. Feel free to star the repo for updates!
 
 ---
 
-## 📂 Additional Projects
+## 🔧 Tech Stack
 
-| Project Name | Description | Link |
-|--------------|-------------|------|
-| Project 1     | [Add your description here] | [Link to folder] |
-| Project 2     | [Add your description here] | [Link to folder] |
-| ...           | ...                         | ...              |
-
-> ✨ To add a new project:
-> 1. Create a new folder: `your-project-name/`
-> 2. Add your code, data, and `README.md` inside.
-> 3. Update the **Additional Projects** table above with a brief description and link.
+- **Languages**: Python 3.x  
+- **Libraries**: PyTorch, OpenCV, Torchvision, Numpy, Matplotlib  
+- **Tools**: Jupyter, Streamlit (for apps), Gradio (for demos)  
 
 ---
 
-## 🛠️ Tech Stack
+## ➕ Adding New Projects
 
-- Python 3.x  
-- PyTorch  
-- OpenCV  
-- Torchvision  
-- NumPy, Matplotlib  
-- Jupyter Notebooks  
+Each project lives in its own folder with:
+- Code (`.ipynb`, `.py`)
+- `README.md` describing the task, dataset, and method
+- Optional: demo app (Streamlit, Gradio)
 
----
-
-## 📌 To-Do / Planned Additions
-
-- [ ] Object Detection (YOLOv5 or Faster R-CNN)  
-- [ ] Transfer Learning using pretrained models  
-- [ ] Image Segmentation (UNet)  
-- [ ] Real-time Webcam Inference App (Streamlit or Gradio)
-
----
-
-## 🤝 Contributions
-
-Feel free to fork this repo, raise issues, or suggest new CV projects.
-
----
-
-## 📬 Contact
-
-- LinkedIn: [Your LinkedIn link]
-- Email: [Your email]
-
----
-
-> ⭐ If you find this useful, give it a star!
-
+To add a new project:
+```bash
+mkdir new-task-folder
+# Add code, dataset link, results, and update this README
