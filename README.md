@@ -47,3 +47,19 @@ To add a new project:
 ```bash
 mkdir new-task-folder
 # Add code, dataset link, results, and update this README
+
+
+## 🤝 Contributions
+
+Feel free to fork this repo, raise issues, or suggest new CV projects.
+
+---
+
+## 📬 Contact
+
+- LinkedIn: [Your LinkedIn link]
+- Email: [Your email]
+
+---
+
+> ⭐ If you find this useful, give it a star!
